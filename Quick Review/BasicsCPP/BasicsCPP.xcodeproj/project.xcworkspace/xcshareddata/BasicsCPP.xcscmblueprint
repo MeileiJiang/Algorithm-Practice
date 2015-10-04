@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "977639A76447A50B533054E6F05D25D0C802058E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "977639A76447A50B533054E6F05D25D0C802058E" : 0,
+    "A2C620B0ECC3E011BFE1B4E2A6B74E019FBFF261" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "96A2DFCF-FCFF-4D9F-BA0F-0320A1346326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "977639A76447A50B533054E6F05D25D0C802058E" : "algorithm-analysis\/",
+    "A2C620B0ECC3E011BFE1B4E2A6B74E019FBFF261" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BasicsCPP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Quick Review\/BasicsCPP\/BasicsCPP.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MeileiJiang\/Algorithm-Practice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "977639A76447A50B533054E6F05D25D0C802058E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MeileiJiang\/machine-learning-study.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2C620B0ECC3E011BFE1B4E2A6B74E019FBFF261"
+    }
+  ]
+}
