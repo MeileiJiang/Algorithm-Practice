@@ -12,6 +12,7 @@
 #include <math.h>
 #include "merge-sort.hpp"
 #include "insertion-sort.hpp"
+#include "quick-sort.hpp"
 
 using namespace std;
 
@@ -20,7 +21,7 @@ using namespace std;
 
 
 int main(){
-    int Meilei[10]= {13, 1, 14, 24, 34, 5, 6, 7, 21, 35};
+    int Meilei[10]= {13, 1, 14, 24, 34, 5, 26, 7, 21, 11};
     cout << "Before sorting: \n";
     for (int i = 0; i < 10; i++) {
         cout << "Meilei["<< i <<"] = " << Meilei[i] <<endl;
@@ -28,9 +29,11 @@ int main(){
     
     cout << "Size of Meilei is " << sizeof(Meilei)/sizeof(*Meilei) << endl;
     
-    insertion_sort(Meilei, 10);
+    //merge_sort(Meilei, 0, 9);
+    //insertion_sort(Meilei, 10);
+    quick_sort(Meilei, 0, 9);
     
-    cout << "By insertion sorting: \n";
+    cout << "By sorting: \n";
     for (int i = 0; i < 10; i++) {
         cout << "Meilei["<< i <<"] = " << Meilei[i] <<endl;
     }

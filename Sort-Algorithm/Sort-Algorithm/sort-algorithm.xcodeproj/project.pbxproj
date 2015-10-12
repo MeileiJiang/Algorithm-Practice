@@ -10,6 +10,7 @@
 		C229ABAF1BC0E6AA00DCAA23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229ABAE1BC0E6AA00DCAA23 /* main.cpp */; };
 		C229ABBA1BC1A55900DCAA23 /* merge-sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229ABB91BC1A55900DCAA23 /* merge-sort.cpp */; settings = {ASSET_TAGS = (); }; };
 		C229ABBF1BC1C2C900DCAA23 /* insertion-sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229ABBD1BC1C2C900DCAA23 /* insertion-sort.cpp */; settings = {ASSET_TAGS = (); }; };
+		C229ABC21BC1F0E100DCAA23 /* quick-sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C229ABC01BC1F0E100DCAA23 /* quick-sort.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C229ABB91BC1A55900DCAA23 /* merge-sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "merge-sort.cpp"; sourceTree = "<group>"; };
 		C229ABBD1BC1C2C900DCAA23 /* insertion-sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "insertion-sort.cpp"; sourceTree = "<group>"; };
 		C229ABBE1BC1C2C900DCAA23 /* insertion-sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "insertion-sort.hpp"; sourceTree = "<group>"; };
+		C229ABC01BC1F0E100DCAA23 /* quick-sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "quick-sort.cpp"; sourceTree = "<group>"; };
+		C229ABC11BC1F0E100DCAA23 /* quick-sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "quick-sort.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				C229ABAE1BC0E6AA00DCAA23 /* main.cpp */,
-				C229ABB61BC0E6D100DCAA23 /* merge-sort.hpp */,
 				C229ABB91BC1A55900DCAA23 /* merge-sort.cpp */,
+				C229ABB61BC0E6D100DCAA23 /* merge-sort.hpp */,
 				C229ABBD1BC1C2C900DCAA23 /* insertion-sort.cpp */,
 				C229ABBE1BC1C2C900DCAA23 /* insertion-sort.hpp */,
+				C229ABC01BC1F0E100DCAA23 /* quick-sort.cpp */,
+				C229ABC11BC1F0E100DCAA23 /* quick-sort.hpp */,
 			);
 			path = "sort-algorithm";
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C229ABBA1BC1A55900DCAA23 /* merge-sort.cpp in Sources */,
+				C229ABC21BC1F0E100DCAA23 /* quick-sort.cpp in Sources */,
 				C229ABAF1BC0E6AA00DCAA23 /* main.cpp in Sources */,
 				C229ABBF1BC1C2C900DCAA23 /* insertion-sort.cpp in Sources */,
 			);
